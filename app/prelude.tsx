@@ -1,3 +1,4 @@
+"use client"
 import { useRef } from "react"
 import { agbalumo, dancingScript } from "@/app/ui/fonts";
 import { motion, useScroll, useTransform } from "motion/react";

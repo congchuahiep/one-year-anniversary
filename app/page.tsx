@@ -1,4 +1,3 @@
-"use client"
 import Intro from "@/app/intro";
 import Prelude from "@/app/prelude";
 import History from "@/app/history";

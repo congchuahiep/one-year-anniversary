@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
-import { agbalumo } from "../app/ui/fonts";
+import { agbalumo } from "@/app/layout";
 import Image from 'next/image';
 import Header from "@/components/header"
 

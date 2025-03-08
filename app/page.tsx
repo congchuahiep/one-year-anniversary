@@ -1,10 +1,10 @@
 "use client"
-import Blank from "@/components/blank";
 import Intro from "@/app/intro";
 import Prelude from "@/app/prelude";
 import History from "@/app/history";
 import MiddleStory from "@/app/middle-story";
 import FutureStory from "@/app/future";
+import PresentStory from "@/app/present";
 
 
 export default function Home() {
@@ -16,6 +16,7 @@ export default function Home() {
       <History />
       <MiddleStory />
       <FutureStory />
+      <PresentStory />
     </main>
   );
 }

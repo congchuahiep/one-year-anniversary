@@ -1,8 +1,9 @@
 import { useEffect, useRef } from "react"
 import { motion, useScroll, useTransform } from "motion/react";
 import Header from "@/components/header";
+import { agbalumo } from "./ui/fonts";
 
-export default function MiddleStory() {
+export default function PresentStory() {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     // Target scroll tracking
@@ -42,37 +43,39 @@ export default function MiddleStory() {
     }}
   >
     <Header className="sticky top-[10rem] text-center mt-[12rem] sm:mt-[16rem] lg:mt-[20rem]">
-      Đó là những mảnh chuyện quá khứ
+      Hiện tại là món quà
       <motion.div
         className="sticky top-0 text-amber-50 mt-5 text-justify font-normal text-base"
         style={{
           opacity: opacityP1Progess
         }}
       >
-        Thật tuyệt vời khi chúng ta đã tìm thấy nhau tại ngày này, không sớm, không muộn,
-        cũng không phải là đúng lúc mình muốn. Mà nó đến lúc mình cần, vì hai ta cần nhau,
-        tớ biết điều đó.
+        Dù gì thì ta cũng đã yêu nhau được một năm rồi nhỉ? Vui có, buồn có. Nhưng điều đặc
+        biệt nhất là bọn mình đã học được nhiều bài học để hiểu nhau hơn, và hơn cả đó chính
+        là <span className={`${agbalumo.className} text-pink-100`}>ngay lúc này ta vẫn bên nhau</span>.
         <motion.div
-          className="sticky top-[0rem] text-amber-50 mt-2 text-justify"
+          className="sticky top-[0rem] text-amber-50 mt-2 text-right italic"
           style={{
             opacity: opacityP2Progess
           }}
         >
-          Hjx, thiệt tình trong lúc mình đang viết đến đoạn này thì mình cũng khá đuối rồi.
-          Nhắc về quá khứ, đáng lẽ tớ nên chuẩn bị sớm hơn, thiệt tình thì giờ chỉ còn vài
-          tiếng đồng hồ nữa là gặp được cậu (lúc mà mình viết đoạn này). Nên những dòng
-          văn dưới đây tớ có thể tự tin nói rằng tớ đang viết bằng cả trái tim.
-
+          <br/>
+          Yesterday is <span className={`${agbalumo.className} text-pink-100`}>history</span>,<br/>
+          tomorrow is a <span className={`${agbalumo.className} text-pink-100`}>mystery</span>,<br/>
+          but today is <span className={`${agbalumo.className} text-pink-100`}>a gift</span>,
+          that is why it is called <span className={`${agbalumo.className} text-pink-300`}>the present</span>
           <motion.div
-            className="sticky top-[0rem] text-amber-50 mt-2 text-justify"
+            className="sticky top-[0rem] text-amber-50 mt-2 text-center not-italic"
             style={{
               opacity: opacityP3Progess
             }}
           >
-            Lúc mới yêu, cậu hay nghi ngờ và nói vu vơ rằng: <i>"chắc sau 2-3 tháng là m chán á mà ^^"</i>.
-            Tớ phải nói thật lòng, cũng có những lúc tớ cảm thấy vậy. Nhưng điều đó không có nghĩa rằng
-            tớ muốn bỏ rơi cậu. Ngược lại, tớ càng muốn tìm cách hàn gắn tình cảm hai ta hơn, thứ tình
-            cảm tớ đã dành quá nhiều cho cậu, nên tớ không thể để nó cho ai hết.
+            <br/>
+            <br/>
+            <br/>
+            Yêu cậu nhiều, <span className={`${agbalumo.className}`}>Nguyễn Phan Ngọc Uyên</span>
+            <br/>
+            Từ, <span className={`${agbalumo.className}`}>Trần Hoàng Hiệp</span>
           </motion.div>
         </motion.div>
       </motion.div>

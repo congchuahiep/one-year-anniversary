@@ -8,6 +8,39 @@ import arrowDown from 'react-useanimations/lib/arrowDown';
 export default function Intro() {
   return (
     <div className="">
+      <motion.div 
+        className="bg-violet-500 absolute -z-10 top-[-6rem] right-[11rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem]"
+        initial={{ opacity: 0, scale: 0.6 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 1,
+          delay: 0.6,
+          scale: { type: "spring", visualDuration: 1, bounce: 0.1 },
+          ease: 'easeOut'
+        }}
+      />
+      <motion.div
+        className="bg-purple-50 absolute -z-9 top-[60vh] right-[2rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] dark:bg-[#676394]"
+        initial={{ opacity: 0, scale: 0.6 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 1,
+          delay: 0.4,
+          scale: { type: "spring", visualDuration: 1, bounce: 0.1 },
+          ease: 'easeOut'
+        }}
+      />
+      <motion.div
+        className="bg-pink-400 absolute -z-8 top-[28vh] left-[21vw] h-[31.25rem] w-[50rem] rounded-full blur-[10rem]"
+        initial={{ opacity: 0, scale: 0.6 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 1,
+          delay: 1.5,
+          scale: { type: "spring", visualDuration: 1, bounce: 0.1 },
+          ease: 'easeOut'
+        }}
+      />
       <section
         id="home"
         className="z-10 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem] pt-[26rem] h-lvh"

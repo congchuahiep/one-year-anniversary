@@ -2,10 +2,10 @@
 
 // import Intro from "@/components/intro"; // Err
 import Prelude from "@/components/prelude"; // YEAH
-import History from "@/components/history";
-// import MiddleStory from "@/components/middle-story";
-// import FutureStory from "@/components/future";
-// import PresentStory from "@/components/present";
+import History from "@/components/history"; // YEAH
+import MiddleStory from "@/components/middle-story";
+import FutureStory from "@/components/future";
+import PresentStory from "@/components/present";
 
 
 export default function Home() {
@@ -15,9 +15,9 @@ export default function Home() {
       {/* <Intro /> */}
       <Prelude />
       <History />
-      {/* <MiddleStory /> */}
-      {/* <FutureStory /> */}
-      {/* <PresentStory /> */}
+      <MiddleStory />
+      <FutureStory />
+      <PresentStory />
     </main>
   );
 }

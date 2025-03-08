@@ -1,7 +1,8 @@
 "use client"
 import Blank from "@/components/blank";
-import Intro from "@/components/intro";
-import Prelude from "@/components/prelude";
+import Intro from "@/app/intro";
+import Prelude from "@/app/prelude";
+import History from "@/app/history";
 
 
 export default function Home() {
@@ -10,8 +11,8 @@ export default function Home() {
     <main className="flex flex-col items-center overflow-visible">
       <Intro />
       <Prelude />
-      <Prelude />
-
+      <History />
+      <Blank />
     </main>
   );
 }

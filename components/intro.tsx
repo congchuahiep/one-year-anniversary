@@ -3,8 +3,8 @@
 import Image from "next/image";
 import * as motion from "motion/react-client"
 import { parisienne } from "@/app/ui/fonts";
-import UseAnimations from 'react-useanimations';
-import arrowDown from 'react-useanimations/lib/arrowDown';
+// import UseAnimations from 'react-useanimations';
+// import arrowDown from 'react-useanimations/lib/arrowDown';
 
 
 export default function Intro() {
@@ -131,7 +131,7 @@ export default function Intro() {
         />
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         className="absolute right-5 top-[85vh] text-stone-100 text-center hidden lg:flex flex-col items-center"
         initial={{ opacity: 0, scale: 0.6 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -144,7 +144,7 @@ export default function Intro() {
       >
         Còn<br />nhiều nữa
         <UseAnimations className="" animation={arrowDown} size={56} strokeColor="white" />
-      </motion.div>
+      </motion.div> */}
     </div>
   )
 }

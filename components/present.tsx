@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 import { motion, useScroll, useTransform } from "motion/react";
 import Header from "@/components/header";
-import { agbalumo } from "../app/ui/fonts";
+import { agbalumo } from "@/app/ui/fonts";
 
 export default function PresentStory() {
   const ref = useRef(null);

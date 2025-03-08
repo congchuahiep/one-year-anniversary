@@ -32,7 +32,7 @@ export default function Prelude() {
     <div
 
       className={`
-      sticky top-[10vh] lg:top-[30vh] bottom-5
+      sticky top-[30vh]
       container bg-amber-50 lg:w-[60vw] lg:px-[5rem] px-5 py-20 my-10 text-center
       rounded-2xl drop-shadow-2xl
     `}

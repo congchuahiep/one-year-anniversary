@@ -1,3 +1,5 @@
+"use client";
+
 import Intro from "@/components/intro";
 import Prelude from "@/components/prelude";
 import History from "@/components/history";

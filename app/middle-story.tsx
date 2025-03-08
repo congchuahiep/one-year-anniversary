@@ -26,15 +26,15 @@ export default function MiddleStory() {
   // * scrollYProgress = 0   -> Scale = 0.8 (get in viewport -> small)
   // * scrollYProgress = 0.5 -> Scale = 1   (normal)
   // * scrollYProgress = 1   -> Scale = 0.8 (get out viewport -> small)
-  const scaleProgess = useTransform(scrollYProgress, [0, 0.2, 0.6, 1], [0.8, 1, 1, 0.8]);
-  const opacityProgess = useTransform(scrollYProgress, [0, 0.2, 0.6, 1], [0.3, 1, 1, 0]);
+  const scaleProgess = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0.8, 1, 1, 0.8]);
+  const opacityProgess = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0.3, 1, 1, 0]);
 
-  const opacityP1Progess = useTransform(scrollYProgress, [0, 0.3, 0.35, 1], [0, 0, 1, 0.8]);
+  const opacityP1Progess = useTransform(scrollYProgress, [0, 0.3, 0.4, 1], [0, 0, 1, 0.8]);
   const opacityP2Progess = useTransform(scrollYProgress, [0, 0.4, 0.45, 1], [0, 0, 1, 0.8]);
   const opacityP3Progess = useTransform(scrollYProgress, [0, 0.5, 0.55, 1], [0, 0, 1, 0.8]);
 
   return <motion.section
-    className="p-2 overflow-visible h-[500vh] lg:w-[50vw]"
+    className="p-2 overflow-visible h-[200vh] lg:w-[50vw]"
     ref={ref}
     style={{
       scale: scaleProgess,
@@ -64,7 +64,7 @@ export default function MiddleStory() {
           văn dưới đây tớ có thể tự tin nói rằng tớ đang viết bằng cả trái tim.
 
           <motion.div
-            className="sticky top-[26rem] text-amber-50 mt-2 text-justify"
+            className="sticky top-[0rem] text-amber-50 mt-2 text-justify"
             style={{
               opacity: opacityP3Progess
             }}

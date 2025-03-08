@@ -4,6 +4,7 @@ import Intro from "@/app/intro";
 import Prelude from "@/app/prelude";
 import History from "@/app/history";
 import MiddleStory from "@/app/middle-story";
+import FutureStory from "@/app/future";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Prelude />
       <History />
       <MiddleStory />
+      <FutureStory />
     </main>
   );
 }

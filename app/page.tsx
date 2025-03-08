@@ -1,6 +1,6 @@
 "use client";
 
-// import Intro from "@/components/intro"; // Err
+import Intro from "@/components/intro"; // Err
 import Prelude from "@/components/prelude"; // YEAH
 import History from "@/components/history"; // YEAH
 import MiddleStory from "@/components/middle-story"; // YEAH
@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center overflow-visible">
-      {/* <Intro /> */}
+      <Intro />
       <Prelude />
       <History />
       <MiddleStory />

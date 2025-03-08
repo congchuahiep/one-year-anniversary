@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import * as motion from "motion/react-client"
-import { parisienne } from "@/app/layout";
+import { parisienne } from "@/app/ui/fonts";
 import UseAnimations from 'react-useanimations';
 import arrowDown from 'react-useanimations/lib/arrowDown';
 

@@ -1,7 +1,7 @@
 "use client"
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
-import { agbalumo } from "./ui/fonts";
+import { agbalumo } from "../app/ui/fonts";
 import Image from 'next/image';
 import Header from "@/components/header"
 

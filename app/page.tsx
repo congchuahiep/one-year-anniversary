@@ -1,9 +1,9 @@
-import Intro from "@/app/intro";
-import Prelude from "@/app/prelude";
-import History from "@/app/history";
-import MiddleStory from "@/app/middle-story";
-import FutureStory from "@/app/future";
-import PresentStory from "@/app/present";
+import Intro from "@/components/intro";
+import Prelude from "@/components/prelude";
+import History from "@/components/history";
+import MiddleStory from "@/components/middle-story";
+import FutureStory from "@/components/future";
+import PresentStory from "@/components/present";
 
 
 export default function Home() {

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { libreFranklin } from "./ui/fonts";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,10 +26,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
-        id="backgroundIcon"
+        className={`${libreFranklin.className} ${geistSans.variable} ${geistMono.variable} antialiased relative`}
       >
-        <div className="bg-[#8e51ff] absolute top-[-6rem] right-[11rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem]"></div>
+        <div className="bg-[#8e51ff] absolute -z-10 top-[-6rem] right-[11rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem]"></div>
+        <div className="bg-[#dbd7fb] absolute -z-9 top-[60vh] right-[2rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] dark:bg-[#676394]"></div>
+        <div className="bg-[#fb64b6] absolute -z-8 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[31.25rem] w-[50rem] rounded-full blur-[10rem]"></div>
         {children}
       </body>
     </html>

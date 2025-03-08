@@ -43,7 +43,7 @@ export default function Intro() {
       />
       <section
         id="home"
-        className="z-10 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem] pt-[26rem] h-lvh"
+        className="z-10 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem] pt-[20rem] lg:pt-[26rem] h-lvh"
       >
         <motion.h1
           className="mb-10 mt-4 px-4 text-4xl font-medium text-secondary flex flex-col"
@@ -71,7 +71,7 @@ export default function Intro() {
       </section>
 
       <motion.div
-        className="border-8 -z-1 border-b-[4rem] absolute top-[11rem] right-2 lg:right-[7rem] drop-shadow-lg"
+        className="border-8 -z-1 border-b-[4rem] absolute top-[5rem] lg:top-[11rem] right-2 lg:right-[7rem] drop-shadow-lg"
         initial={{ x: '-120vw', y: "80vw", rotate: 20 }}
         animate={{ x: '0', y: "0", rotate: -20 }}
         transition={{
@@ -90,7 +90,7 @@ export default function Intro() {
       </motion.div>
 
       <motion.div
-        className="border-8 -z-1 absolute top-[4rem] lg:top-[8rem] left-[2rem] lg:left-[10rem] drop-shadow-lg -rotate-12"
+        className="border-8 -z-1 absolute top-[2rem] lg:top-[8rem] left-[2rem] lg:left-[10rem] drop-shadow-lg -rotate-12"
         initial={{ x: '-100vw', y: "80vw", rotate: -10 }}
         animate={{ x: '0', y: "0", rotate: 30 }}
         transition={{
@@ -110,7 +110,7 @@ export default function Intro() {
       </motion.div>
 
       <motion.div
-        className="border-8 -z-1 absolute top-[38rem] lg:left-[12rem] drop-shadow-lg overflow-hidden"
+        className="border-8 -z-1 absolute top-[32rem] lg:top-[38rem] lg:left-[12rem] drop-shadow-lg overflow-hidden"
         initial={{ x: '-100vw', y: "80vw", rotate: 10 }}
         animate={{ x: '0', y: "0", rotate: 10 }}
         transition={{

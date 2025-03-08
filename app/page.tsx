@@ -12,7 +12,6 @@ export default function Home() {
       <Intro />
       <Prelude />
       <History />
-      <Blank />
     </main>
   );
 }

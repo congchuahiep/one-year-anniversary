@@ -22,7 +22,7 @@ export default function Prelude() {
   const opacityProgess = useTransform(scrollYProgress, [0, 0.4, 0.6, 1], [0.3, 1, 1, 0]);
 
   return <motion.section
-    className="p-2 overflow-visible h-[150vh]"
+    className="p-2 overflow-visible h-[200vh]"
     ref={ref}
     style={{
       scale: scaleProgess,
@@ -30,11 +30,10 @@ export default function Prelude() {
     }}
   >
     <div
-
       className={`
-      sticky top-[30vh]
-      container bg-amber-50 lg:w-[60vw] lg:px-[5rem] px-5 py-20 my-10 text-center
-      rounded-2xl drop-shadow-2xl
+      sticky top-[20vh] lg:top-[30vh]
+      container bg-amber-50 sm:w-[60vw] lg:w-[40vw] lg:px-[5rem] px-5 py-20 my-10 text-center
+      rounded-2xl shadow-md shadow-pink-500
     `}
     >
       <h1 className="text-2xl font-bold text-pink-600 mb-3">
@@ -45,7 +44,7 @@ export default function Prelude() {
         ghi lại hành trình mình bên nhau. Tớ vẫn nghĩ là tặng cho cuốn sổ sẽ hay hơn, được cầm, được nắm, được chạm, và
         tiếp xúc với món quà của tớ một cách vật lý. Nhưng rồi cậu vô tình spoil món quà của cậu, là một
         <span className={`${agbalumo.className} text-indigo-600`}> cuốn sổ! </span> Lmao sao lại y chang tớ nhỉ?
-        Thế nên giờ tớ nghĩ lại, có lẽ mình nên tặng thứ khác,... Một thứ gì đó có thể thay thế được đây?... Rồi tớ chợt
+        Thế nên giờ tớ nghĩ lại, có lẽ mình nên tặng thứ khác. . . Một thứ gì đó có thể thay thế được đây?. . . Rồi tớ chợt
         nhận ra: <span className={`${dancingScript.className} text-indigo-700 text-xl font-medium`}>"À, mình là trai IT, sao không thể tặng cậu
           ấy một món quà mà mình giỏi làm nhất nhỉ?"</span>
       </p>

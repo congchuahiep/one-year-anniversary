@@ -150,3 +150,7 @@ body {
 .whiteOutline {
   text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
 }
+
+.header {
+  text-shadow: 0 3px  #1447e6, 0 3px #1447e6, 0 3px #1447e6, 0 3px #1447e6;
+}

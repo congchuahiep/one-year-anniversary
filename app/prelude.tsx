@@ -45,8 +45,8 @@ export default function Prelude() {
         tiếp xúc với món quà của tớ một cách vật lý. Nhưng rồi cậu vô tình spoil món quà của cậu, là một
         <span className={`${agbalumo.className} text-indigo-600`}> cuốn sổ! </span> Lmao sao lại y chang tớ nhỉ?
         Thế nên giờ tớ nghĩ lại, có lẽ mình nên tặng thứ khác. . . Một thứ gì đó có thể thay thế được đây?. . . Rồi tớ chợt
-        nhận ra: <span className={`${dancingScript.className} text-indigo-700 text-xl font-medium`}>"À, mình là trai IT, sao không thể tặng cậu
-          ấy một món quà mà mình giỏi làm nhất nhỉ?"</span>
+        nhận ra: <span className={`${dancingScript.className} text-indigo-700 text-xl font-medium`}>&quot;À, mình là trai IT, sao không thể tặng cậu
+          ấy một món quà mà mình giỏi làm nhất nhỉ?&quot;</span>
       </p>
       <p className="indent-8 text-right mb-3 italic">
         Tuy rằng món quà này còn những chỗ lem nhem lở nhở, <span className={`${agbalumo.className} text-indigo-600`}>hi vọng</span> rằng cậu sẽ thích nó ❤️

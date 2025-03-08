@@ -69,7 +69,7 @@ export default function MiddleStory() {
               opacity: opacityP3Progess
             }}
           >
-            Lúc mới yêu, cậu hay nghi ngờ và nói vu vơ rằng: <i>"chắc sau 2-3 tháng là m chán á mà ^^"</i>.
+            Lúc mới yêu, cậu hay nghi ngờ và nói vu vơ rằng: <i>&quot;chắc sau 2-3 tháng là m chán á mà ^^&quot;</i>.
             Tớ phải nói thật lòng, cũng có những lúc tớ cảm thấy vậy. Nhưng điều đó không có nghĩa rằng
             tớ muốn bỏ rơi cậu. Ngược lại, tớ càng muốn tìm cách hàn gắn tình cảm hai ta hơn, thứ tình
             cảm tớ đã dành quá nhiều cho cậu, nên tớ không thể để nó cho ai hết.

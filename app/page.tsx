@@ -3,6 +3,7 @@ import Blank from "@/components/blank";
 import Intro from "@/app/intro";
 import Prelude from "@/app/prelude";
 import History from "@/app/history";
+import MiddleStory from "@/app/middle-story";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Intro />
       <Prelude />
       <History />
+      <MiddleStory />
     </main>
   );
 }

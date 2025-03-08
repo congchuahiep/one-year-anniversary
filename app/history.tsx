@@ -8,7 +8,7 @@ export default function History() {
 
   return (
     <section
-      className="mt-[20vw] items-center h-[400vh]"
+      className="mt-[20vw] items-center h-full"
     >
       <div className="h-[90rem]">
         <Header

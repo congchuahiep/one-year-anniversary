@@ -12,12 +12,12 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center overflow-visible">
-      <Intro />
+      {/* <Intro />
       <Prelude />
       <History />
       <MiddleStory />
       <FutureStory />
-      <PresentStory />
+      <PresentStory /> */}
     </main>
   );
 }
